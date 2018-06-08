@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="worktime_csharp_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:worktime_csharp_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="354" Width="500">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox Margin="0,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="210"/>
+
+    </Grid>
+</Page>
