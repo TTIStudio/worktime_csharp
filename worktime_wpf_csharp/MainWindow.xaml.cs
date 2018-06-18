@@ -158,6 +158,11 @@ namespace worktime_wpf_csharp
                 CheckBox_WorkingState.IsChecked = !CheckBox_WorkingState.IsChecked;
             }
         }
+
+        private void Textbox_Log_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
 
